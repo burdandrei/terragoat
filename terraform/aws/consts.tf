@@ -47,3 +47,7 @@ variable "neptune-dbname" {
   description = "Name of the Neptune graph database"
   default     = "neptunedb1"
 }
+
+variable "bandrei" {
+  default = "ayay"
+}
